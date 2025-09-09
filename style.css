@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 1;
+    display: flex;
+    background-color: #333333;
+    padding: 0 1.5rem;
+}
+
+#header1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#header1 h1{
+    font-size: 3rem;
+}
+
+#header2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#header2 ul{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#header2 ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    
+}
+
+#header2 ul a:hover{
+    border-bottom: 2px solid white;
+}
+
+#cerrar_sesion {
+    background-color: #00bcd2;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+
+main {
+    flex: 12;
+    display: flex;
+    padding: 20px;
+}
+
+#main_i{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+#main_i_1 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0rem 0.2rem 0.5rem #8888;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    
+    
+}
+#main_i_1_a {
+    flex: 2;
+    background-color: #00bcd5;
+    
+}
+#main_i_1_b {
+    flex: 4;
+    background-color: white;
+    padding: 10rem 4rem 4rem 4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#main_i_1_b > img{
+    width: 15rem;
+    border: 0.35rem solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+}
+
+h1 {
+   font-size: 3rem; 
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+li{
+    font-size: 1.6rem;
+}
+
+#editar_perfil{
+    display: flex;
+    align-items: center;
+    background-color: #00bcd5;
+    color: white;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #8888;
+}
+
+#editar_perfil > img {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+#main_i_2 {
+    flex: 1;
+    padding: 2rem;
+    box-shadow: 0rem 0.2rem 0.5rem #8888;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+#main_i_2 ul {
+    list-style: none;
+}
+
+
+#main_d{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+}
+
+#main_d_1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0rem 0.2rem 0.5rem #8888;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    padding: 2rem;
+
+}
+
+#main_d_1 li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+
+}
+
+.miniatura {
+    width: 4rem;
+    border: 0.2rem solid#00bcd5;
+    border-radius: 20%;
+}
+
+.btn_check_borrar {
+    border: none;
+}
+
+/* Le estoy agregando estos estilos adicionales que he estudiado*/
+.btn_check_borrar:hover {
+    transform: scale(110%);
+}
+
+
+#main_d_2 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0rem 0.2rem 0.5rem #8888;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.miniatura_circulo {
+    flex: 1;
+    border-radius: 50%;
+    border-color: black;
+}
+#main_d_2 ul{
+    margin-top: 2rem;
+    list-style: none;
+}
+#main_d_2 li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#main_d_2 li span {
+    flex: 8;
+    margin-left: 1rem;
+}
+
+img + span{
+    font-size: 2rem;
+}
+
